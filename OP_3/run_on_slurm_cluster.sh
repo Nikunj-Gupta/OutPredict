@@ -22,7 +22,7 @@
 
 
 module purge
-module load anaconda3/5.3.1
+module load anaconda3/2020.07
 source activate op3
 
 
