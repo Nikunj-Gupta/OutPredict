@@ -8,7 +8,7 @@ RF_model Class Implementation
 import numpy as np
 import pandas as pd
 import time
-from sklearn.tree.tree import BaseDecisionTree
+from sklearn.tree import BaseDecisionTree
 from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 from sklearn.metrics import *

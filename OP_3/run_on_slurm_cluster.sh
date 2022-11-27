@@ -40,4 +40,4 @@ cd /home/jc3832/OutPredict3/OP_3
 # cd $SLURM_JOBTMP
 
 
-python pipeline_dream10.py
+python pipeline_sle.py
