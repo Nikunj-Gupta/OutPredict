@@ -26,7 +26,7 @@ module load anaconda3/5.3.1
 source activate op3
 
 
-cd /home/jc3832/OutPredict3/OP_3
+cd OP_3
 
 # job_name="job"
 # _dir=$(pwd)
@@ -40,4 +40,4 @@ cd /home/jc3832/OutPredict3/OP_3
 # cd $SLURM_JOBTMP
 
 
-python pipeline_sle.py
+python -s pipeline_sle.py
