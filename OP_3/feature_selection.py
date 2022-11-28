@@ -11,7 +11,7 @@ tf_names_file = './Datasets/GSE121239/tf_names.tsv'
 selected_features_file = './Datasets/GSE121239/tf_names_selected_features.tsv'
 
 # read results from here 
-results_file = './output/GSE121239_output_RF_Ksqrt_ntrees300_datatypeSS_LOdataSS_numgenes100_numtfs17/Ranked_list_TF_gene_best_model.csv' 
+results_file = './output/GSE121239_output_RF_Ksqrt_ntrees300_datatypeSS_LOdataSS_numgenes5000_numtfs714/Ranked_list_TF_gene_best_model.csv' 
 
 # Target gene ID: important risk loci: SYNGR1 
 target_gene_id = '204287_PM_at' 
@@ -20,10 +20,10 @@ target_gene_id = '204287_PM_at'
 with open(tf_names_file) as f:
     lines = f.readlines() 
 
-num_selected_features = int(len(lines)/2) 
+num_selected_features = int(len(lines)/3) 
 
 # Temporary 
-num_selected_features = 10  
+# num_selected_features = 10  
 
 results = pd.read_csv(results_file) 
 # results 
