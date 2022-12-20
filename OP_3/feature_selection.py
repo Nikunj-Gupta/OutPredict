@@ -4,17 +4,17 @@ import pandas as pd
 File names to read or write data 
 """
 # read current features/transcription_factors here 
-tf_names_file = './Datasets/GSE121239/tf_names.tsv'
+tf_names_file = './Datasets/GSE65391/tf_names.tsv'
 
 
 # write selected_features/transcription_factors here 
-selected_features_file = './Datasets/GSE121239/tf_names_selected_features.tsv'
+selected_features_file = './Datasets/GSE65391/tf_names_selected_features.tsv'
 
 # read results from here 
-results_file = './output/GSE121239_output_RF_Ksqrt_ntrees300_datatypeSS_LOdataSS_numgenes5000_numtfs714/Ranked_list_TF_gene_best_model.csv' 
+results_file = './output/GSE65391_output_RF_Ksqrt_ntrees300_datatypeSS_LOdataSS_numgenes5000_numtfs656/Ranked_list_TF_gene_best_model.csv' 
 
 # Target gene ID: important risk loci: SYNGR1 
-target_gene_id = '204287_PM_at' 
+target_gene_id = 'ILMN_1721712' 
 
 # number of features/transcription_factors to select 
 with open(tf_names_file) as f:

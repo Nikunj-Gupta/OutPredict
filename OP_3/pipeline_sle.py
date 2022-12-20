@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     op.num_of_trees = 300  # The number of Trees for Random Forests
 
-    op.input_dir_name = "GSE121239"  # Name of Directory, inside OP_3/Datasets/, containing the dataset
+    op.input_dir_name = "GSE65391"  # Name of Directory, inside OP_3/Datasets/, containing the dataset
 
     op.test_set_split_ratio = 0.15  # The percentage of data points to use for the test set separately for time-series and steady-state, e.g. 0.15, 15% of steady-state data will be used as test set, 15% of the time-series data (last time points of time-series)
 
