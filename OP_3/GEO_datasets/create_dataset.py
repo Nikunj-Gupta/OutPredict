@@ -88,8 +88,9 @@ Only SLE patients
 """ 
 pheno = pd.read_csv(pheno_csv_file, sep=",") 
 sle_patients = pheno[pheno["disease state:ch1"]=="SLE"]["geo_accession"] 
+sle_patients = list(sle_patients) 
+sle_patients.insert(0, 'Unnamed: 0')
 expression = expression[list(sle_patients)] 
-
 """
 Matching human TFs 
 """
